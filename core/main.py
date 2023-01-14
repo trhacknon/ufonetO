@@ -3733,7 +3733,7 @@ class UFONet(object):
                     pass
             self.update_snmps(snmps_ready)
             os.remove('botnet/bosons.txt') # remove SNMP/bosons file
-            print("\n[Info] [AI] Botnet updated! -> ;-)")
+            print("\n[Info] [AI] Botnet updated! -> TRHACKNON cyber army is ready ;-)")
             self.update_transferred_stats(self.trans_zombies) # update json file with transferred stats (blackhole)
             if not self.options.forceyes: # ask for update everything
                 print('-'*25 + "\n")
