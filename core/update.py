@@ -18,8 +18,8 @@ class Updater(object):
     Update UFONet automatically from a .git repository
     """     
     def __init__(self):
-        GIT_REPOSITORY = "https://code.03c8.net/epsylon/ufonet"
-        GIT_REPOSITORY2 = "https://github.com/epsylon/ufonet"
+        GIT_REPOSITORY = "https://github.com/trhacknon/ufonet"
+        GIT_REPOSITORY2 = "https://code.03c8.net/epsylon/ufonet"
         if not os.path.exists(".git"):
             print("Not any .git repository found!\n")
             print("="*30)
