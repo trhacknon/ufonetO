@@ -1,7 +1,7 @@
 #!/usr/bin/env python3 
 # -*- coding: utf-8 -*-"
 """
-This file is part of the UFONet project, https://github.com/trhacknon/ufonet
+This file is part of the UFONet project, https://github.com/trhacknon/ufonetO
 
 Copyright (c) 2013/2022 | trhacknon
 
@@ -54,12 +54,12 @@ DEBUG = False # use 'True' for detailed traceback
 
 class UFONet(object):
     def __init__(self):
-        self.exit_msg = 'Donate BTC (Bitcoin) to keep UFONet (https://github.com/trhacknon/ufonet) strong!' # set msg show at the end [FILO ;-)]
+        self.exit_msg = 'Donate BTC (Bitcoin) to keep UFONet (https://github.com/trhacknon/ufonetO) strong!' # set msg show at the end [FILO ;-)]
         self.blackhole = '46.163.118.220' # default download/upload zombies [Blackhole] [Server] / Try [DIY] your own [Mirror]...
         self.crypto_key = "U-NATi0n!" # default cryptkey
-        self.GIT_REPOSITORY = 'https://github.com/trhacknon/ufonet' # oficial code source [OK! 22/12/2018]
+        self.GIT_REPOSITORY = 'https://github.com/trhacknon/ufonetO' # oficial code source [OK! 22/12/2018]
         self.GIT_REPOSITORY2 = 'https://github.com/epsylon/ufonet' # mirror source [since: 04/06/2018]
-        self.github_zombies = 'https://raw.githubusercontent.com/trhacknon/ufonet/trkn/botnet/' # default [RAW] download/upload zombies [Blackhole] [GitHub] [DIY]
+        self.github_zombies = 'https://raw.githubusercontent.com/trhacknon/ufonetO/trkn/botnet/' # default [RAW] download/upload zombies [Blackhole] [GitHub] [DIY]
         self.external_check_service1 = 'https://status.ws/' # set external check service 1 [OK! 26/02/2020]
         self.external_check_service2 = 'https://downforeveryoneorjustme.com/' # set external check service 2 [OK! 26/02/2020]
         self.check_tor_url = 'https://check.torproject.org/' # TOR status checking site
