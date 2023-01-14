@@ -3448,7 +3448,7 @@ class UFONet(object):
                     total_zombies = zombies_added + aliens_added + droids_added + ucavs_added + rpcs_added + ntps_added + dnss_added + snmps_added
                     print("[Info] [AI] Congratulations!. Total [Zombies] added: " + str(total_zombies))
                     print('-'*12)
-                    print("\n[Info] [AI] Botnet updated! -> ;-)\n")
+                    print("\n[Info] [AI] Botnet updated! -> TRHACKNON cyber army is ready ;-)\n")
                     self.update_transferred_stats(self.trans_zombies) # update json file with transferred stats (blackhole)
                     stream = str(enc_globalnet_owner)+self.globalnet_msg_sep+str(enc_globalnet_comment)+self.globalnet_msg_sep+str(enc_globalnet_warp)+self.globalnet_msg_sep+str(enc_globalnet_ip)
                     globalnet_list.append(stream+os.linesep)
@@ -5292,7 +5292,7 @@ class UFONet(object):
                 else:
                     self.update_rpcs(rpcs_ready)
                     if not self.options.upload:
-                        print("\n[Info] [AI] Botnet updated! -> ;-)\n")
+                        print("\n[Info] [AI] Botnet updated! -> TRHACKNON cyber army is ready ;-)\n")
 
     def testing(self, zombies):
         # test Open Redirect exploiting and show statistics
@@ -5443,7 +5443,7 @@ class UFONet(object):
                     else:
                         self.update_zombies(zombies_ready)
                         if not self.options.upload:
-                            print("\n[Info] [AI] Botnet updated! -> ;-)\n")
+                            print("\n[Info] [AI] Botnet updated! -> TRHACKNON cyber army is ready ;-)\n")
                             self.update_scanner_stats(self.scanned_zombies) # update json file with scanner stats (found via dorking)
         else:
             print('-'*25 + "\n")
@@ -5490,7 +5490,7 @@ class UFONet(object):
                 if num_failed_rpcs > 0:
                     self.update_rpcs(rpcs_ready)
                 if not self.options.upload:
-                    print("\n[Info] [AI] Botnet updated! -> ;-)\n")
+                    print("\n[Info] [AI] Botnet updated! -> TRHACKNON cyber army is ready;-)\n")
         else:
             print("[Info] [AI] [Control] ALL tested [Zombies] are working! ;-) -> [Exiting!]\n")
 
