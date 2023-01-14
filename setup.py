@@ -1,9 +1,9 @@
 #!/usr/bin/env python 
 # -*- coding: utf-8 -*-"
 """
-This file is part of the UFONet project, https://ufonet.03c8.net
+This file is part of the UFONet project, https://github.com/trhacknon/ufonet
 
-Copyright (c) 2013/2022 | psy <epsylon@riseup.net>
+Copyright (c) 2013/2022 | trhacknon
 
 You should have received a copy of the GNU General Public License along
 with UFONet; if not, write to the Free Software Foundation, Inc., 51
@@ -20,10 +20,10 @@ setup(
     name='ufonet',
     version='1.8',
     license='GPLv3',
-    author_email='epsylon@riseup.net',
+    author_email='jeremydiliotti@gmail.com',
     author='psy',
     description='Denial of Service Toolkit',
-    url='https://ufonet.03c8.net/',
+    url='https://github.com/trhacknon/ufonet',
     long_description=open('docs/README.txt').read(),
     packages=find_packages(),
     install_requires=['GeoIP >= 1.3.2', 'python-geoip >= 1.2', 'pygeoip >= 0.3.2', 'requests >= 2.21.0', 'pycrypto >= 2.6.1', 'pycurl >= 7.43.0', 'whois >= 0.7', 'scapy-python3 >= 0.20'],
