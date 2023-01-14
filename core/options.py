@@ -47,7 +47,7 @@ class UFONetOptions(optparse.OptionParser):
         self.x_energy = self.extract_x_energy()
         self.formula = self.formula_x_energy()
         optparse.OptionParser.__init__(self, 
-        description='\n{(D)enial(OFF)ensive(S)ervice[ToolKit]}-{by_(io=psy+/03c8.net)}',
+        description='\n{(D)enial(OFF)ensive(S)ervice[ToolKit]}-{by_(io=psy+/03c8.net)}-modded-for-TRHACKNON',
         prog='./ufonet',
         version='\nVersion: 1.8 '+"\u25BC "+'[DPh] DarK-PhAnT0m! '+"\u25BC"+'\n')
         self.add_option("-v", "--verbose", action="store_true", dest="verbose", help="active verbose on requests")
